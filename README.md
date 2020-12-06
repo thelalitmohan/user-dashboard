@@ -1,6 +1,4 @@
-# Project Title
-
-A nice project with a nice description
+# User Dashboard
 
 ---
 
@@ -23,18 +21,11 @@ For development, you will only need Node.js and a node global package, Yarn, ins
 
 ### Run Server (Node)
 
-```
     npm install
 
-
 ### Running the project
-```
 
     npm start
-
-```
-
-```
 
 - Application will run on http://localhost:8000
 - Swagger doc will run on http://localhost:8000/api-docs
