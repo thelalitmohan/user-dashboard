@@ -1,0 +1,40 @@
+{
+  "app": {
+    "name": "Parking Management System",
+    "host": "http://localhost",
+    "port": 8000,
+    "socket": 8002,
+    "debug": true,
+    "logLevel": "debug",
+    "jwtAlgo": "HS512",
+    "jwtKey": "node-project"
+  },
+  "development_db": {
+    "name": "user_dashboard",
+    "host": "localhost",
+    "auth": false,
+    "username": "",
+    "password": "",
+    "port": 27017,
+    "mongoose": {
+      "useMongoClient": true,
+      "autoIndex": true,
+      "poolSize": 10,
+      "bufferMaxEntries": 0
+    }
+  },
+  "production_db": {
+    "name": "user_dashboard",
+    "host": "localhost",
+    "auth": false,
+    "username": "root",
+    "password": "root",
+    "port": 27017,
+    "mongoose": {
+      "useMongoClient": true,
+      "autoIndex": true,
+      "poolSize": 10,
+      "bufferMaxEntries": 0
+    }
+  }
+}

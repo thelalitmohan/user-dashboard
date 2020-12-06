@@ -1,0 +1,11 @@
+{
+  "folders": [
+	{
+		"path": "/var/www/html/user-dashboard"
+	},
+	{
+		"path": "/var/www/html/frontend-user-dashboard"
+	}
+],
+  "settings": {}
+}
